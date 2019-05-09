@@ -1,0 +1,51 @@
+/*
+*Mackenzie
+*May 8, 2019
+*Girl Develop It
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Boddy attributes here */
+
+/* the body gives a background color and changes the font of the text */
+body {
+
+    background-color: #FADBD8;
+    font-family: sans-serif;
+}
+
+/* this gives the header a background color and centers content within it */
+header { 
+    background-color: #EC7063;
+    text-align: center; 
+}
+
+/* the first picture floats right */
+#photo-1 {
+    float: right;
+}
+
+/* the second picture floats right */ 
+#photo-2 {
+    float: right;
+}
+
+/* this makes the two heads' text cursive */
+h2, h3 {
+    font-family: cursive; 
+}
+
+/* when the mouse hovers over the links the text will get bigger */
+a:hover, a:focus {
+    font-size: 30px; 
+}
+
+/* links that have been visited will turn a color other than purple */
+a:visited {
+    color: #F27EF8; 
+}
